@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="C:\Users\xiaogao\Desktop\coursera\recsys\Programming Assignment 6\recsys-code-svd-assignment\svd-assignment\target/svd-assignment.zip">
+    <mappedresources>
+      <fileset dir="C:\Users\xiaogao\Desktop\coursera\recsys\Programming Assignment 6\recsys-code-svd-assignment\svd-assignment">
+        <include name="pom.xml"/>
+        <include name="README.csv"/>
+        <include name="src/**/*.java"/>
+        <include name="src/**/*.groovy"/>
+        <include name="src/main/resources/*.xml"/>
+        <include name="data/*.csv"/>
+        <exclude name="data/movielens-*"/>
+      </fileset>
+      <globmapper to="svd-assignment/*" from="*"/>
+    </mappedresources>
+  </zip>
+</target>
+</project>

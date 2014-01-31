@@ -1,0 +1,2 @@
+Algorithm,Partition,DataSet,NNbrs,BuildTime,TestTime,NUsers,NAttempted,NGood,Coverage,RMSE.ByRating,RMSE.ByUser,nDCG,TopN.nDCG,TagEntropy@10
+GlobalMean,0,RecSysMOOC,,675,540,1113,5559,5559,1.0,1.0352839909958507,0.9649809037920078,0.9505899438096396,,NaN

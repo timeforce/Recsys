@@ -1,0 +1,4 @@
+1.在命令提示符下引导至pom.xml所在文件夹
+2.运行mvn package生成jar包及相应文件
+3.运行target/bin/run-cbf.bat userid1, userid2, userid3 >outputfile.txt
+4.结果在target文件夹下
